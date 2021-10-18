@@ -39,7 +39,7 @@ console.log('driverName', driverName);
 
 //2
 var navigatorName = " "
-for (var i = hacker2.length - 1; i >= 0, i--){
+for (var i = hacker2.length - 1; i >= 0, i--); {
     navigatorName += hacker2[i];
 }
 
