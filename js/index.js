@@ -38,17 +38,17 @@ for (i = 0; i < driver.length; i++) {
 console.log('driverName', driverName);
 
 //2
-var navigatorName = " "
-for (var i = hacker2.length - 1; i >= 0, i--); {
+var navigatorName = ""
+for (var i = hacker2.length - 1; i >= 0; i--) {
     navigatorName += hacker2[i];
 }
 
 console.log("navigatorName", navigatorName);
 
 //3
-var compareTheName = driver.localCompare(navigator)
+ var compareTheName = driver.localeCompare(navigatorName)
 
-if (compareTheName == 1) {
+ if (compareTheName == 1) {
     console.log('The driver name goes first.')
 }
 else if (compareTheName == 1) {
