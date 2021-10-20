@@ -23,8 +23,8 @@ else if (hacker1.length === hacker2.length) {
 // Iteration 3: Loops
 
 //1
-const driverName = "";
-const driver = hacker1;
+let driverName = "";
+let driver = hacker1;
 
 for (i = 0; i < driver.length; i++) {
     if (i < driver.length - 1){
@@ -38,7 +38,7 @@ for (i = 0; i < driver.length; i++) {
 console.log('driverName', driverName);
 
 //2
-const navigatorName = ""
+let navigatorName = ""
 for (var i = hacker2.length - 1; i >= 0; i--) {
     navigatorName += hacker2[i];
 }
@@ -64,8 +64,8 @@ const paragraph = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maec
 Vestibulum bibendum feugiat ante, nec dictum ligula lacinia sed. Etiam dui justo, sagittis quis vehicula et, lacinia vitae enim. Quisque nulla velit, posuere nec commodo eu, bibendum id orci. Nam ligula quam, mollis ut feugiat et, sollicitudin eget orci. Phasellus condimentum elit in lacus mollis pharetra. Phasellus nec gravida ante. Maecenas eu orci pellentesque, posuere orci sit amet, auctor arcu. Fusce pharetra porta diam ac suscipit. Aliquam tempor elit justo, a commodo elit ultrices ut. Aliquam accumsan iaculis sapien eu iaculis. Curabitur non eros non nisi lacinia sollicitudin. Curabitur at lacinia nisl. In nisl turpis, eleifend et enim vel, fermentum iaculis nunc. Suspendisse bibendum interdum dolor ultrices gravida. Mauris consequat posuere felis, ut feugiat est luctus dapibus.
 Donec tempus ligula non lacus laoreet, efficitur tempor neque suscipit. Vivamus in elit et ligula ullamcorper iaculis sed non orci. Integer non metus imperdiet, interdum nibh at, venenatis odio. Donec a ultricies nulla. Phasellus nec felis eget velit congue porttitor. Nunc tortor augue, maximus ut scelerisque non, sodales id urna. Donec eu lacus vel odio tincidunt sollicitudin sed et sem. Quisque fringilla sem felis. Vivamus ac diam faucibus, aliquet mi aliquet, vehicula lacus. Praesent eget cursus neque, vitae ullamcorper justo. Nam consectetur enim id rutrum porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque a convallis turpis, et maximus lectus. Nulla viverra tellus quis tristique eleifend.`
 
-const words = 1;
-const etCount = 0;
+let words = 1;
+let etCount = 0;
 
 for (let i = 0; i < paragraph.length; i++) {
   if (paragraph[i] === ' ' || paragraph[i] === '\n') {
@@ -85,7 +85,7 @@ console.log('et count', etCount);
 
 
 //Bonus 2
-const phraseToCheck = "stack cats";   
+let phraseToCheck = "stack cats";   
 
 let reversedPhrase = phraseToCheck.toLowerCase().split('').reverse().join('');
 
